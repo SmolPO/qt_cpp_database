@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Reports</class>
+ <widget class="QWidget" name="Reports">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>211</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Зарплата в месяц</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Доход за год</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>181</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Сделки с клиентом</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>231</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Доход сотрудника за год</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_client">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_worker">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>160</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_people">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>130</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0р.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_year">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>100</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0р.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_all">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>70</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0р.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_p_year">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>160</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0р.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>10</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Отчет</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="t_tax">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>200</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ставка</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_report">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>250</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Расчет</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_back">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>540</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>280</y>
+     <width>271</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="plainText">
+    <string>orders
+- id	// номер операции
+- date_	// дата
+- client_id	// номер клиента
+- worker_id	// номер сотрудника
+- price	// стоимость
+- tax 	// процент сотрдунику на момент сделки
+
+workers
+- id	
+- family
+- name
+- surname
+- date_start	// дата трудоустройства
+- post_id	// номер должности
+
+clients
+- id	
+- family
+- name
+- surname
+- phone	
+
+posts
+- id
+- name
+- salary
+
+taxes
+- id
+- name
+- percent
+
+accruals
+- id
+- date_
+- worker_id
+- price	// сумма с налогами и доплатой за клиентов
+- sum_taxes	// суммарный процент налоговых отчислений
+</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="t_sql">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>330</y>
+     <width>401</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_sql">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>470</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выполнить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_all_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>240</y>
+     <width>271</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Таблицы и поля базы данных</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_all_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>91</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Запрос</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
